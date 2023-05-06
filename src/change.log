@@ -1,0 +1,7 @@
+En este proyecto se creó una aplicación web utilizando Vue.js, la cual se llama NeuralClocks. Esta aplicación consta de un temporizador Pomodoro y temporizadores de pausas cortas y largas, con la posibilidad de personalizar la duración de cada temporizador. Además, se agregó una barra de progreso circular que se actualiza cada minuto y representa qué tan lejos de su temporizador están.
+
+La aplicación cuenta con un botón para configurar la duración de cada temporizador, el cual se encuentra en la parte superior y al presionarlo se abre un modal que muestra 3 inputs y 2 botones para guardar o cancelar la configuración. Los botones Pomodoro, pausa corta y pausa larga tienen una validación que indica cuando no tienen configurado algún valor y tienen un borde redondo y colores pasteles.
+
+Se implementó el uso de Bootstrap en la aplicación, agregando la carpeta de estilos y sobrescribiendo algunos estilos para adaptarlos al diseño deseado.
+
+Finalmente, se agregó la funcionalidad de mostrar una barra en el círculo que indica que se ha iniciado el temporizador y el círculo se llena al pasar cada minuto. También se implementó la función formatTime para mostrar el tiempo restante en formato de hora y se validó para que no se muestre NaN:NaN en caso de que no haya tiempo restante.
